@@ -1,0 +1,36 @@
+# Core data processing and visualization
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+
+# PDF handling
+fpdf
+fpdf2
+PyPDF2
+Pillow
+
+# Excel handling
+openpyxl
+
+# UI
+PyQt5
+
+# Environment and configuration
+python-dotenv
+
+# Development tools
+ipython
+ipykernel
+jupyter_client
+jupyter_core
+
+# HTTP requests
+requests
+
+# Packaging
+pyinstaller
+
+# Environment
+python-dotenv
