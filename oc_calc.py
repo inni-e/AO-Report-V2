@@ -20,7 +20,7 @@ def oc_eng_mapping(raw):
     if raw in mapping:
         return mapping[raw]
     else:
-        mapping_calc(raw, mapping, 14, 50)
+        return mapping_calc(raw, mapping, 14, 50)
 
 def oc_maths_mapping(raw):
     mapping = {0:0,
@@ -45,7 +45,7 @@ def oc_maths_mapping(raw):
     if raw in mapping:
         return mapping[raw]
     else:
-        mapping_calc(raw, mapping, 18, 50)
+        return mapping_calc(raw, mapping, 18, 50)
 
 def oc_thinking_mapping(raw):
     mapping = {0:0, 
@@ -70,7 +70,7 @@ def oc_thinking_mapping(raw):
     if raw in mapping:
         return mapping[raw]
     else:
-        mapping_calc(raw, mapping, 18, 50)
+        return mapping_calc(raw, mapping, 18, 50)
 
 def oc_calc(marks_list):
     eng = (marks_list[0]/25)*14
